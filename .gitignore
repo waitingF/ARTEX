@@ -31,8 +31,10 @@ web/next-env.d.ts
 .DS_Store
 Thumbs.db
 
-# claude code local state
+# local development state
 .claude/
+/.codex/
+/sidequestion/validation-*.json
 
 # 内嵌前端的单二进制产物
 /artex

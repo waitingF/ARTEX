@@ -1,4 +1,14 @@
 .git
+.env
+.env.*
+**/.env
+**/.env.*
+config.json
+jwt.key
+artex.new*
+artex.old
+artex.failed
+artex.upgrade.json
 **/node_modules
 web/.next
 web/out
@@ -14,3 +24,4 @@ bench/.env
 bench/scheduler.py
 bench/entrypoint_v2.sh
 bench/seed_v2.sh
+/docs/
